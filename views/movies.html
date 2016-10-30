@@ -1,0 +1,22 @@
+<div class="container">
+  <div ng-repeat="movie in movies">
+
+      <div class="col-md-4 col-lg-4">
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <div class="caption" id="details">
+              <h3>{{movie.Title}}</h3>
+              <h5>{{movie.Year}}</h5>
+              <a href="#/movie/{{movie.imdbID}}">
+                <button type="button" class="btn btn-default">More Info</button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,27 @@
+#main-heading {
+  align-items: center;
+}
+
+h1 {
+  align-content: center;
+}
+
+.thumbnail {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  clear: none;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail-container {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+#details {
+  align-items: center;
+}
